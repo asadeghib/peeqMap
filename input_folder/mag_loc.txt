@@ -1,0 +1,2 @@
+% EpicenterLon	EpicenterLat	Mw
+51.913	29.522	6.2
