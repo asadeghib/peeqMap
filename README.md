@@ -12,22 +12,28 @@ There are 2 subfolders:
 2.	output_folder
 input_folder contains another subfolder called BA08 including 4 tables of BA08 NGA. 
 The contents of the other 3 folders in input_folder are sample input files for running peeqMap. 
+
 	INPUT FILES:
+
 1.	reg_station_info.txt or urb_station_info.txt or Vurb_station_info.txt: This file comprises 5 columns:
 -	The first column: longitudes of the recording stations
 -	The second column: latitudes of the recording stations 
 -	The third column: Peak Ground Motion Parameter (PGP) in L component of the recording stations
 -	The fourth column: PGP in T component of the recording stations
 -	The fifth column: Vs30 beneath each station
+
 Note:
+
 For producing VERY DENSE URBAN shakemaps the first 5 characters of the name of the input file must be:
 Vurb_ 
+
 For producing URBAN shakemaps the first 4 characters of the name of the input file must be:
 urb_ 
+
 For producing REGIONAL shakemaps the first 4 characters of the name of the input file must be:
 reg_ 
             
- (The number of rows in the input file is equal to number of recording stations)
+(The number of rows in the input file is equal to number of recording stations)
 
 2.	mag_loc.txt: This file comprises 1 row and 3 columns:
 -	The first column: Longitude of the epicenter
@@ -64,9 +70,13 @@ Before running peeqMap following 3 variables must be assigned by users:
 
 
 After preparing the input files you have to assign the input variables in the MATLAB environment. The following commands is just an example for producing PGA shaking map of an earthquake with UNSPECIFIED FAULT TYPE while, M_Map is not installed on our computer:
+
 pgp_tag = 'PGA';
+
 FaultType = 1;
- M_Map_tag = 0;
+
+M_Map_tag = 0;
+
 Now, if the peqMap folder is the Current Folder in MATLAB you just need to run peeqMap.m by this command:
 eval peeqMap;
 
