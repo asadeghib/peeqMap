@@ -172,8 +172,8 @@ if (shake_scale == 2)
     cd ..
     clear output_folder1
 %% % % % % % % % % % % % Correction of Minus Values % % % % % % % % %  % %%
-%     in = inpolygon(coordinate(1,:),coordinate(2,:),city_border(:,1),city_border(:,2));
-%     Amplified_Values(~in) = NaN;
+    in = inpolygon(coordinate(1,:),coordinate(2,:),city_border(:,1),city_border(:,2));
+    Amplified_Values(~in) = NaN;
     [row , col] = find (Amplified_Values < 0 );
     Amplified_Values (row , col) = 0;
     disp('**********************************************************************');        
