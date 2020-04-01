@@ -51,7 +51,8 @@ reg_
 (The number of rows in Scattered_V30.txt is equal to number of the scattered points that their Vs30 is defined)
 For producing PGA shaking maps at least reg_station_info.txt   and Scattered_V30.txt must be available.
 For producing PGV or PSA shaking maps at least reg_station_info.txt, Scattered_V30.txt and mag_loc.txt must be available.
-	WHERE SHOULD INPUT FILES BE LOCATED?
+
+	WHERE SHOULD THE INPUT FILES BE LOCATED?
 The above-mentioned input files apart from 4 tables of BA08 must be in input_folder. So, if you are interested in using presented sample input files you have to copy them from their folder to input_folder.
 
 	INPUT VARIABLES:
