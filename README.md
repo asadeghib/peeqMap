@@ -53,8 +53,9 @@ For producing PGA shaking maps at least reg_station_info.txt   and Scattered_V30
 For producing PGV or PSA shaking maps at least reg_station_info.txt, Scattered_V30.txt and mag_loc.txt must be available.
 	WHERE SHOULD INPUT FILES BE LOCATED?
 The above-mentioned input files apart from 4 tables of BA08 must be in input_folder. So, if you are interested in using presented sample input files you have to copy them from their folder to input_folder.
+
 	INPUT VARIABLES:
-Before running peeqMap following 3 variables must be assigned by users:
+Before running peeqMap following variables must be assigned by users:
 
 1.	     M_Map_tag : M_Map_tag = 1 if you are interested in using M_Map (https://www.eoas.ubc.ca/~rich/map.html) for plotting Results
                   : M_Map_tag = 0 if you do not
