@@ -1,7 +1,8 @@
 # peeqMap
 A MATLAB package for producing earthquake shake maps using very dense urban, dense urban and regional seismic networks
 
-TERMS OF USE
+TERMS OF USE:
+
    If you use peeqMap or any function(s) of it, you need to acknowledge 
    peeqMap by citing the following article:
 
