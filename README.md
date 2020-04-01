@@ -79,6 +79,7 @@ FaultType = 1;
 M_Map_tag = 0;
 
 Now, if the peqMap folder is the Current Folder in MATLAB you just need to run peeqMap.m by this command:
+
 eval peeqMap;
 
 Note:
